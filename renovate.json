@@ -28,10 +28,7 @@
       "groupName": "Kotlin ecosystem"
       "description": "Kotlin ecosystem",
       "matchPackageNames": [
-        "org.jetbrains.kotlin:kotlin-gradle-plugin",
-        "org.jetbrains.kotlin:kotlin-stdlib",
-        "org.jetbrains.kotlinx:kotlinx-coroutines-core",
-        "org.jetbrains.kotlinx:kotlinx-serialization-json"
+
       ],
     },
     {
@@ -40,6 +37,60 @@
         "org.junit.jupiter:junit-jupiter",
         "org.mockito:mockito-core"
       ]
+    },
+    {
+      "description": "Group Kotlin ecosystem updates",
+      "matchPackageNames": [
+        "org.jetbrains.kotlin:kotlin-stdlib",
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8",
+        "org.jetbrains.kotlin:kotlin-gradle-plugin",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core",
+        "org.jetbrains.kotlinx:kotlinx-serialization-json"
+      ],
+      "groupName": "Kotlin ecosystem"
+    },
+    {
+      "description": "Group Adventure ecosystem updates",
+      "matchPackageNames": [
+        "net.kyori:adventure-api",
+        "net.kyori:adventure-text-minimessage",
+        "net.kyori:adventure-platform-bukkit"
+      ],
+      "groupName": "Adventure ecosystem"
+    },
+    {
+      "description": "Group Cloud ecosystem updates",
+      "matchPackageNames": [
+        "cloud.commandframework:cloud-paper",
+        "cloud.commandframework:cloud-annotations"
+      ],
+      "groupName": "Cloud ecosystem"
+    },
+    {
+      "description": "Group Lamp ecosystem updates",
+      "matchPackageNames": [
+        "com.github.Revxrsal.Lamp:common",
+        "com.github.Revxrsal.Lamp:bukkit",
+        "com.github.Revxrsal.Lamp:brigadier"
+      ],
+      "groupName": "Lamp ecosystem"
+    },
+    {
+      "description": "Group Netty ecosystem updates",
+      "matchPackageNames": [
+        "io.netty:netty-codec-http",
+        "io.netty:netty-handler",
+        "io.netty:netty-codec"
+      ],
+      "groupName": "Netty ecosystem"
+    },
+    {
+      "description": "Group Paper tooling updates",
+      "matchPackageNames": [
+        "io.papermc.paperweight.userdev",
+        "xyz.jpenilla.run-paper"
+      ],
+      "groupName": "Paper tooling"
     }
   ]
 }
